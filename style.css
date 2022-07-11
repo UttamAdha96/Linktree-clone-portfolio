@@ -1,0 +1,240 @@
+body{
+    width: 100%;
+    height: 1000px;
+    margin: 0%;
+    overflow-x:hidden;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 1000px;
+}
+.bg1{
+    width: 100vw;
+    height: 1000px;
+    margin: 0%;
+    overflow-x:hidden;
+    background-color: rgb(28, 27, 27);
+    opacity: 0.96;
+    background-repeat: no-repeat;
+    background-size: 100vw 1000px;
+}
+
+.logo{
+    position: relative;
+    top: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:absolute;
+    top: 120px;
+    left: 200px;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:absolute;
+    top: 160px;
+    left: 200px;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+
+.sitelink{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 20px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.sitelink:hover{
+    transform: scale(1.05);
+}
+.gitlink{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 20px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.gitlink:hover{
+    transform: scale(1.05);
+}
+.linkedinlink{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 380px;
+    left: 300px;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 20px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.linkedinlink:hover{
+    transform: scale(1.05);
+}
+.whatsapplink{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 460px;
+    left: 300px;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 20px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.whatsapplink:hover{
+    transform: scale(1.05);
+}
+.instalink{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 540px;
+    left: 300px;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 20px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.instalink:hover{
+    transform: scale(1.05);
+}
+.resume{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 620px;
+    left: 300px;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 20px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.resume:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 690px) {
+    body{
+        background-size: 100vw 600px;
+
+        height: 600px;
+    }
+    .bg1{
+        height: 600px;
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .heading{
+        position:absolute;
+        top: 100px;
+        left: 20px;
+        right: 20px;
+    }
+    .about{
+        position:absolute;
+        top: 140px;
+        left: 10px;
+        right: 10px;
+        font-size: medium;
+    }
+    .sitelink{
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        right: 20px;
+        font-size: medium;
+        height: 20px;
+        padding: 3px;
+    }
+    .gitlink{
+        position: absolute;
+        top: 240px;
+        left: 20px;
+        right: 20px;
+        font-size: medium;
+        height: 20px;
+        padding: 3px;
+    }
+    .linkedinlink{
+        position: absolute;
+        top: 280px;
+        left: 20px;
+        right: 20px;
+        font-size: medium;
+        height: 20px;
+        padding: 3px;
+    }
+    .whatsapplink{
+        position: absolute;
+        top: 320px;
+        left: 20px;
+        right: 20px;
+        font-size: small;
+        height: 20px;
+        padding: 3px;
+    }
+    .instalink{
+        position: absolute;
+        top: 360px;
+        left: 20px;
+        right: 20px;
+        font-size: medium;
+        height: 20px;
+        padding: 2px;
+    }
+    .resume{
+        position: absolute;
+        top: 400px;
+        left: 20px;
+        right: 20px;
+        font-size: medium;
+        height: 20px;
+        padding: 2px;
+    }
+}
