@@ -189,7 +189,7 @@ body{
         right: 20px;
         font-size: large;
         height: 40px;
-        padding: 5px;
+        padding: 15px 0 0 0;
     }
     .gitlink{
         position: absolute;
@@ -198,7 +198,7 @@ body{
         right: 20px;
         font-size: large;
         height: 40px;
-        padding: 5px;
+        padding: 15px 0 0 0 ;
     }
     .linkedinlink{
         position: absolute;
@@ -207,7 +207,7 @@ body{
         right: 20px;
         font-size: medium;
         height: 40px;
-        padding: 5px;
+        padding: 15px 0 0 0;
     }
     .whatsapplink{
         position: absolute;
@@ -216,7 +216,7 @@ body{
         right: 20px;
         font-size: large;
         height: 40px;
-        padding: 5px;
+        padding: 15px 0 0 0;
     }
     .instalink{
         position: absolute;
@@ -225,7 +225,7 @@ body{
         right: 20px;
         font-size: large;
         height: 40px;
-        padding: 5px;
+        padding: 15px 0 0 0;
     }
     .resume{
         position: absolute;
@@ -234,6 +234,6 @@ body{
         right: 20px;
         font-size: large;
         height: 40px;
-        padding: 5px;
+        padding: 15px 0 0 0;
     }
 }
